@@ -54,7 +54,7 @@
   ],
   "post-processors": [
     {
-      "output": "builds/aaa-devbox-centos7-{{.Provider}}.box",
+      "output": "builds/devbox-centos7-{{.Provider}}.box",
       "type": "vagrant"
     }
   ]
