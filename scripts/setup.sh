@@ -1,5 +1,6 @@
 #!/bin/bash -eux
-
+#Install prerequisites
+yum install -y wget
 # Install vagrant key
 echo 'Install vagrant SSH key'
 mkdir -pm 700 /home/vagrant/.ssh
