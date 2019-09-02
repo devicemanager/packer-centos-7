@@ -8,8 +8,8 @@ Vagrant.configure("2") do |config|
   # VirtualBox.
   # `vagrant up virtualbox --provider=virtualbox`
   config.vm.define "virtualbox" do |virtualbox|
-    virtualbox.vm.hostname = "aaa-devbox-centos7"
-    virtualbox.vm.box = "file://builds/aaa-devbox-centos7-virtualbox.box"
+    virtualbox.vm.hostname = "devbox-centos7"
+    virtualbox.vm.box = "file://builds/devbox-centos7-virtualbox.box"
     virtualbox.vm.network :private_network, ip: "172.19.5.2"
 
     config.vm.provider :virtualbox do |v|
