@@ -6,4 +6,4 @@ $ vagrant ssh
 
 Pre-Built Vagrant Box:
 
-$ vagrant init devicemanager/devbox-cent7
+$ vagrant init devicemanager/devbox-centos7
