@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  config.ssh.insert_key = false
+  config.ssh.insert_key = true
   config.vm.synced_folder '.', '/vagrant', type: 'nfs'
 
   # VirtualBox.
